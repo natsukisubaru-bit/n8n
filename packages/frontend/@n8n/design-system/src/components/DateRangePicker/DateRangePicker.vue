@@ -33,7 +33,7 @@ const props = withDefaults(defineProps<N8nDateRangePickerProps>(), {
 
 const emit = defineEmits<N8nDateRangePickerRootEmits>();
 const forwarded = useForwardPropsEmits(props, emit);
-const slots = useSlots();
+import type { Slots } from 'vue';
 </script>
 
 <template>
